@@ -33,7 +33,7 @@ Python 3.11, Streamlit, NumPy, Pandas, Plotly, SymPy (disponible como dependenci
 - `simulacion.py`: curvas y resumen comparativo.
 - `graficas.py`: figura Plotly.
 - `exportacion.py`: CSV e informe PDF.
-- `tests/`: verificaciones del modelo y comparación.
+- `tests/`: verificaciones automatizadas del modelo y la comparación de escenarios.
 
 ## Requisitos y ejecución en Windows PowerShell
 
@@ -58,6 +58,10 @@ Si PowerShell bloquea la activación, ejecuta directamente:
 ```
 
 Streamlit imprime la dirección local, normalmente `http://localhost:8501`.
+
+## Interfaz del laboratorio
+
+La interfaz ofrece un panel lateral para configurar temperaturas, objetivo, tiempo, sistemas y coeficientes `k`. La navegación principal divide el trabajo en cuatro vistas: simulación, comparación, explicación matemática y descargas. El tema usa una paleta clara en tonos verde azulado, tarjetas con bordes y controles nativos adaptables a pantallas pequeñas.
 
 ## Ejemplo de uso
 
